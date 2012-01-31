@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CPA</string>
+    <string name="parentDir">..</string>
+    <string name="preferences_menu">Preferences</string>
+    <string name="about_menu">About</string>
+    <string name="install_menu">Install Package</string>
+    <string name="policy_validation">Policy Validation</string>
+    <string name="package_info">Package Info</string>
+    <string name="safe_percentage">Safe Percentage</string>
+    <string name="warning_percentage">Warning Percentage</string>
+    <string name="database">Database</string>
+    <string name="update_db">Update Database</string>
+    <string name="about_title">CPA 1.0 Alpha</string>
+    <string name="about_info">CPA(Collaborative Policy Administration) is a novel policy administration framework.\n
+    Learn more or try other cool stuff from our <a href="http://www.android.com/">Website</a>.</string>
+    <string name="about_copyrights">Copyright © 2011 \nWeili Han, Zheran Fang, Weifeng Chen, \nWenyuan Xu &amp; Chang Lei \nAll rights reserved.</string>
+    <string name="about_icon_credits">Folder icons are derived from the open source project <a href="http://code.google.com/p/openintents/">openintents</a>.</string>
+</resources>

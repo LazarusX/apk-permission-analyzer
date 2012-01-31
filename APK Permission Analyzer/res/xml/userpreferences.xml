@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/policy_validation">
+		<ListPreference android:key="PS" android:title="@string/safe_percentage"
+			android:entries="@array/safe_per_options" android:entryValues="@array/safe_per_values"
+			android:dialogTitle="@string/safe_percentage" />
+		<ListPreference android:key="PW"
+			android:title="@string/warning_percentage" android:entries="@array/warning_per_options"
+			android:entryValues="@array/warning_per_values" android:dialogTitle="@string/warning_percentage" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/database">
+		<PreferenceScreen android:title="@string/update_db"
+			android:summary="Last Update: 09/24/2011">
+			<intent android:action="android.intent.action.VIEW"
+				android:data="http://www.android.com" />
+		</PreferenceScreen>
+	</PreferenceCategory>
+</PreferenceScreen>
